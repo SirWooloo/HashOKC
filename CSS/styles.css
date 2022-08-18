@@ -1,9 +1,41 @@
-body {
-  background-color: #083D77;
+a {
+  color: #003E1F;
+  font-family: Verdana;
+  font-size: 24px;
 }
 
-a {
+h1 {
+  font-size: 32px;
+  font-family: Verdana;
+  color: #003E1F;
+}
+
+table, th, td {
+  border: 50px solid;
+  border-color: #FFFFFF;
+}
+
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 50px;
+  background-color: #003E1F;
+  text-align: center;
   color: white;
-  font-family: Helvetica;
-  font-size: 24px;
+}
+
+.fixed-nav-bar a {
+  color: white;
+  font-family: Verdana;
+  font-size: 32px;
+}
+
+@media screen and (max-width: 600px) {
+  .fixed-nav-bar a {
+    float: none;
+    display: block;
+  }
 }
