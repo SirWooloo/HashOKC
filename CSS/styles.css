@@ -39,3 +39,7 @@ table, th, td {
     display: block;
   }
 }
+
+img {
+  margin-top: 50px;
+}
